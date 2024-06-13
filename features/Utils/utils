@@ -1,0 +1,14 @@
+class Utils {
+
+constructor (page){
+   this.page = page;
+}
+
+async takeScreenshots(screenName)
+{
+    let screenshot = await this.page.screenshot();
+    this.attach(screenshot, screenName);
+  }
+}
+
+module.exports= {Utils};

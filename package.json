@@ -1,0 +1,23 @@
+{
+  "name": "playwright_udemycource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --parallel 5  --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.7",
+    "allure-commandline": "^2.29.0",
+    "allure-cucumberjs": "^2.15.1",
+    "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.6.0",
+    "axios": "^1.7.2"
+  }
+}
